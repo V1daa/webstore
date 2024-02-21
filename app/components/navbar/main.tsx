@@ -11,7 +11,7 @@ const NavBar = () => {
       <Link href="/game-store">
         <h1 className="pr-8 text-text-grey">Game Store</h1>
       </Link>
-      
+
       <div className="flex pl-[73vw] flex-row items-center gap-5">
         <Link href="/package" className="w-[40px] h-[40px]">
           <Image

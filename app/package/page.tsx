@@ -1,11 +1,11 @@
 import React from "react";
-import NavBar from "../components/navbar/main";
+
 import Image from "next/image";
 
 const Package = () => {
   return (
     <div>
-      <NavBar />
+
       <div className="w-[904px] h-[770px] bg-text-grey/[.18] rounded-2xl  ml-[25vw]  overflow-hidden">
         <div className="flex justify-center">
           <h1 className="text-text-grey text-5xl mt-6 overflow-hidden">

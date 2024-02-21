@@ -1,12 +1,12 @@
 import React from "react";
-import NavBar from "../components/navbar/main";
+
 import data from "../data/data.json";
 import Image from "next/image";
 
 const GameStore = () => {
   return (
     <div>
-      <NavBar />
+
       <div className="flex gap-40 w-full ml-20 mt-20">
         <div className="w-[326px] h-[729px] bg-text-grey/[.18] rounded-2xl">
           <h1 className="mt-6 ml-6 mb-4 text-xl text-text-grey">Categories</h1>

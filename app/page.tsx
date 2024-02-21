@@ -1,11 +1,18 @@
+"use client";
 import React from "react";
 import LandingPage from "./components/landing-page/page";
-import NavBar from "./components/navbar/main";
+import { signOut, useSession } from "next-auth/react";
+import { redirect } from "next/navigation";
 
 const HomePage = () => {
+  const session = useSession({
+    required: true,
+    onUnauthenticated() {
+      redirect("/signin");
+    },
+  });
   return (
     <div>
-      <NavBar />
       <LandingPage />
     </div>
   );

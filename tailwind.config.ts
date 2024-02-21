@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-
+const colors = require('tailwindcss/colors')
 const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -9,7 +9,8 @@ const config: Config = {
   theme: {
     colors: {
       'text-grey': '#9a9a9a',
-      'text-yellow': '#e58e27'
+      'text-yellow': '#e58e27',
+      ...colors
     },
     extend: {
       backgroundImage: {

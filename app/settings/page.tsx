@@ -1,10 +1,10 @@
 import React from "react";
-import NavBar from "../components/navbar/main";
+
 
 const Settings = () => {
   return (
     <div>
-      <NavBar />
+
       <div className="flex items-center justify-center mt-5">
         <div className="bg-text-grey/[.18] rounded-2xl w-[1625px] h-[809px]">
           <h1 className="text-text-grey text-4xl flex justify-center overflow-hidden mt-8">
